@@ -1,0 +1,12 @@
+…or create a new repository on the command line
+echo "# youdemy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M development
+git remote add origin https://github.com/lilplucky/youdemy.git
+git push -u origin development
+…or push an existing repository from the command line
+git remote add origin https://github.com/lilplucky/youdemy.git
+git branch -M development
+git push -u origin development
