@@ -309,10 +309,6 @@ yank contents of inside brackets you use yi(
 <Down>
 sahdaskhdas
 
-sdljqwojd
-qwljedqw
-qwhejioqwhe
-qwheiqwoejh
 qwjeigqwe
 qwheiq  
 qwhei   h
