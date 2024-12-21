@@ -1,0 +1,4 @@
+- b'How-To-Fix-Blank-Screen-When-Starting-Kali'
+- b'https://zsecurity.org/got-a-blank-screen-after-importing-kali-in-virtual-box-heres-how-to-fix-it/'
+- b'How-To-Fix-Blank-Screen-When-Starting-Kali'
+- b'https://zsecurity.org/got-a-blank-screen-after-importing-kali-in-virtual-box-heres-how-to-fix-it/'
