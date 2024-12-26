@@ -1,0 +1,12 @@
+Google dorking
+
+site:google.com
+site:microsoft.com -forms
+
+site:google.com inurl:login
+site:google.com inurl:login intitle:microsoft
+
+site:microsoft.com filettype:txt
+inurl:pastebin  'VISA'
+https://www.exploit-db.com/google-hacking-database
+

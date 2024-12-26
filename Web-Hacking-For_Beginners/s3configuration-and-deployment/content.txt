@@ -1,0 +1,11 @@
+Fingerprint webserver
+
+whatweb 192.168.174.160
+wappalyzer extension firefox
+testphp.vulnweb.com
+
+theHarvestor
+https://github.com/laramies/theHarvester
+python theHarvestor.py  -d eccouncil -l 200 -b yahoo
+
+
