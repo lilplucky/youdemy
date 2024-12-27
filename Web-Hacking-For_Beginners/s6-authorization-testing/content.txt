@@ -1,0 +1,10 @@
+IDOR
+INSECURE DIRECT OBJECT REFERENCE
+EXPOSES INTERNAL APPLICATION OBJECTS
+https://hack-yourself-first.com/Account
+Use burp as some proxy
+https://hack-yourself-first.com/Account/UserProfile/372
+emhal@mail.com melody254 https://hack-yourself-first.com/Account/UserProfile/372 changed to emhal-hacked
+emhal1@mail.com melody255 https://hack-yourself-first.com/Account/UserProfile/373
+YOU CAN CHANGE THE ENTIRE PROFILE OF THE USER
+

