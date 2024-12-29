@@ -12,6 +12,7 @@ pentestlab.sh status
 usernames
 testsite-1a
 test1
+use burpsend request to intruder use $username$ in the test parameter and note any diffrence in length
 
 guess username just guess
 

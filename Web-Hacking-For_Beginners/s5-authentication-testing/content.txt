@@ -6,3 +6,4 @@ wordlist attack
 
 wpscan --url http://somesite/wp-login.php -U testsite-1a -P word.txt
 
+wpscan --url http://vulnerablewordpress/wp-login.php -U test1 -P word.txt
