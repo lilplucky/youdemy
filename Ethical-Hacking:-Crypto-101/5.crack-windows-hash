@@ -1,0 +1,22 @@
+NOT JUST STORED IN A TEXT FILE
+HASH FORMAT USED IN WINDOWS:NTLM
+NTLM HASHING ALGORITHM
+GET HASHES OUT OF WINDOWS
+USE MIMIKATZ
+Run mimikatz
+privilege::debug
+token::elevate
+lsadump::sam
+#copy the hashes
+crack with john or use crackstation
+#usede crackstation
+using john
+vi windows.txt
+paste hashes
+hashing algorithm  same input always creat same output
+same password makes same password twice
+john --format=NT --rules -w=rockyou.txt windows.txt 
+Password only follows if password is in password list
+At times crackstation fails
+Use both john and crackstation
+

