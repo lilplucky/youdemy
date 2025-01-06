@@ -1,3 +1,14 @@
 -Data Integrity
 Hashing can check if files have ben changed
+Simple samll change
+makes a huge diffrence
+sha256 hello sha256 Hello
+md5sum example.txt
+sha256sum download.jpg 
+sha256sum download.jpg 
+same hash generated
+manipulate the image
+Req: actual filename and actual hash
+sha256sum download.xcf 
+sha256sum download.xcf 
 

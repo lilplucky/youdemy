@@ -1,0 +1,18 @@
+Encryption enables: transfer your data to another person in unreadable format
+Enc algorithm
+
+Bob:
+Hello Alice -> Encrypt ==> Alice Public key
+              |
+            \/
+            6E78934H37
+              |
+              \/
+Alice:
+Hello Alice <- Decrypt  ==> Alice private key
+
+encrypt.toolpie.com
+encrypted text fxR6lp5lwIYKNHCg8430mw==
+key secret
+Encrypted text totally depends on the key as well as the input text
+
