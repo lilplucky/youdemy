@@ -1,0 +1,19 @@
+Why python?
+written in c  high performance ability to link to c libraries for extensions
+highly flexible
+DRY  OOP do not repeat yourself
+Django hugh level python web framework encourages rapid dev and clean pragmatic design
+Why Django?
+Ridiculously fast -quick prototypes, and app dev
+secure baked into framework
+scalable quickly flexible to change
+reusability app logic divided into smaller groups
+community huge developer community. 63.2k Github **
+MVX model view controller design pattern
+Built in powerful orm object relational mapping
+middleware csrf protection, caching, authentication
+flexible templatinb language
+server side rendering 
+excellent documentation
+built in form handling
+
