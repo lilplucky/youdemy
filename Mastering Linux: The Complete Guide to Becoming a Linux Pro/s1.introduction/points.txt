@@ -1,0 +1,8 @@
+wc
+-l
+-w
+-c
+
+lines
+words
+characters

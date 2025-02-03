@@ -1,0 +1,8 @@
+why we use virtual environment?
+create separation of concern for packages required to our application
+pythonenv package
+virtualenv.pypa.io
+python3.10 -m virtualenv venv
+python --version
+which python
+

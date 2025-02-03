@@ -1,0 +1,7 @@
+intro js
+A regular programming language, easy to start, hard to master.
+allows to give some interactivity to elements on the web
+syntax similar to c or java but with no types
+can change content of html or css applied to an element
+even send/retrive info from internet to update content of web without reloading the page
+view consle on browser ctrl shift i or f12
