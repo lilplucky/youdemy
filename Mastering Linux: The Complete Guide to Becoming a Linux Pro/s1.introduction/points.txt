@@ -6,3 +6,14 @@ wc
 lines
 words
 characters
+
+ls -1 
+prints names going down
+ls /bin |cat
+ls |wc -l
+ls /bin |head -n15
+grep oscaly oscaly.txt
+sort oscaly.txt
+sort -r oscaly.txt #reverse order
+uniq oscay.txt
+cut -f1 oscaly.txt | sort |unique -c |sort -nr|head -n1
