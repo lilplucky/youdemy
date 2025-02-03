@@ -1,0 +1,57 @@
+less /etc/shadow
+id
+uid user id
+gid group id
+fedora starts uid from 1000
+fedora begins uid from 500
+id shows id's of all groups I am in uid=1003(hulbert) gid=1003(hulbert) groups=1003(hulbert),0(root),27(sudo),100(users),129(vboxusers)
+
+Regular file
+d directory
+l symbolic link
+c char special file
+b block special file
+
+filetype-filemode
+umask
+sets default perm for any file or dir created
+octal mode sec settings take 3 r double x perm values  and conv to 3 bit binary value rep by single octal value 
+
+   
+
+
+Permissions	Binary	Octal	Description
+- - -		000	0	No permissions
+- - x		001	1	Execute-only permission
+- w -		010	2	Write-only permission
+- w x		011	3	Write and execute permission
+r - - 		100	4	Read-only permission
+r - x 		101	5	Read and execute permission
+r w -		110	6	Read and write permission
+r w x		111	7	Read, write and execute permission
+
+rw- r-- r-- MASK (022) ->	110 100 100   -> 	644
+rw- r-- --- MASK (026) -> 	110 100 000   -> 	640
+FULL PERMISSION -> 777
+STARTS WITH (FILE)      -> 666
+STARTS WITH (DIRECTORY) -> 777
+
+Examples with directories 
+rwx r-x --x MASK (026) -> 111 101 001 -> 751
+
+666			777	
+022			026
+-> 644			-> 751
+
+
+chmod ugoa +-= rwxXstugo
+user group others all
+
+s -> set SUID or SGID on execution
+t -> set sticky bit
+u -> set permissions to owner's permission
+g -> set permissions to group's permission
+o -> set permissions to other's permission
+
+chmod o+r file
+

@@ -1,0 +1,22 @@
+touch my_file oscaly_acdemy my_document justapicture
+touch fall fell fill full
+ls -l my_file
+ls -l my_file
+ls my*
+ls -l f?ll
+above one does not see fail as it does not match pattern
+touch my_test_file
+cp source destination
+new file and updted modification time
+cp -i my_test_file test
+-i parameter/option asks if one should overwrite
+linking files
+link place holder in directory that points to the real file
+symbolic don't share file contents
+ln -s test_file sl_test_file #sl_test_file has dont share content with test_file, it just points even size is diffrent
+ls -i *sl_test_file #check id assigned by kernel
+hardlink
+ln my_test_file hl_my_test_file
+files share same identity assigned by kernel
+man cp
+rm -i somefiles

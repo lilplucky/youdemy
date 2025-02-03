@@ -1,0 +1,14 @@
+man -k keyword
+man -k cat
+proc 
+current kernel system and processing directory stored
+sbin system binaries
+srv
+service dir local service stores files there
+sys dev drivers stored 
+usr
+secondary dir
+var
+variable directory for files that change frequently
+
+

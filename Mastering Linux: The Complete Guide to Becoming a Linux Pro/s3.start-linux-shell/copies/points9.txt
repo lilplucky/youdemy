@@ -1,0 +1,13 @@
+user
+
+  || BASH shell sits beween user and kernel
+  ||
+  >
+
+     LINUX
+* wildcard  handled enterily by the shell and not by the program
+cd /home
+ls *
+ls.*txt
+ls never sees wildcard here
+

@@ -1,0 +1,43 @@
+ps
+tty teletype control terminal for the process
+ps x
+? means no controlling terminal
+STAT status of the process
+R -> Meaning
+S sleeping waiting for keystroke or network packet
+d -> Uninteruptible sleep as diskdrive
+T -> Stopped 
+Z -> zombie process finished but not terminated by child process
+< -> High priority process less nice, consumes more of cpu
+N -> Low priority process, is nice as it consumes less of cpu
+ps aux
+Rss amount of ram being used in kbs
+top- used to see top processes in the system
+key combo u search user
+xlogo
+xlogo &
+job control └──╼ #xlogo &
+[1] 167901
+┌─[root@ZERXIS]─[/home/hulbert]
+└──╼ #
+
+started roc with process id
+jobsreturn to foreground
+fg %1
+bg %2
+kill %1
+
+kill -SIGNIT  PID
+
+
+1  => HUP  ->  Hang Up
+2  => INT  ->  Interrupt (Same as CTRL-C)
+3  => QUIT ->  Just simple quit
+9  => KILL ->  Kill without notifying the program, Contacts directly with kernel
+11 => SEGV ->  Segmentation Violation 
+15 => TERM ->  Default signal sent by kill command.
+18 => CONT ->  Continue | Restore process after a STOP or TSTP signal (sent by BG and FG)
+19 => STOP ->  Pause without terminating. (program cannot ignore this)
+20 => TSTP ->  Terminal Stop. CTRL-Z is pressed. (can be ignorable)
+28 => WINCH->  Window change 
+kill -l

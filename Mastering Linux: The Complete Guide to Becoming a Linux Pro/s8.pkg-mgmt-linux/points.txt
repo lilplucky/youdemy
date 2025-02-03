@@ -1,0 +1,9 @@
+pms
+dpkg
+rpm fedora opensuse manthria
+programs are seldom standalome rather  they rely on precence of other software components to get their work done.
+high level tools yum, used by redhat enterprise
+dpkg -l
+dpkg -s package_name
+dpkg -s firefox
+

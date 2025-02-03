@@ -1,0 +1,18 @@
+Network architecture
+Each connected device is a node in a network
+Mainframenode workstationnode serverNode
+
+what network protocol does
+MAINTAINING SESSIONS STATE
+IDENTIFYING NODES THROUGH ADDRESSING 
+CONTROLLING FLOW
+GUARANTEEING THE ORDER OF TRANSMITTED DATA
+DETECTING AND CORRECTING ERRORS
+FORMATTING AND ENCODING DATA 
+
+internet layer:mechanism for addresing network nodes unlike layer 1 nodes dont have to be located on the actual network
+transport layer conn between clients and servers and sometimes ensuring correct order of packets and providing service multiplexing
+service multiplexing allows a single node to support multi diffrent services by assigning a diffrent number for each service , the port 
+application is a collection of related functionality that provides a service to a user 
+
+

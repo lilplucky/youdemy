@@ -1,0 +1,9 @@
+echo /usr/*/share/
+echo .[!.]*
+echo ((2+2))
+adding inside brackets
+echo $(($((2**3)) * 10 ))
+mkdir {2020..2023}-{01..12}
+ls -l $(which cp)
+calender
+apt install ncal
